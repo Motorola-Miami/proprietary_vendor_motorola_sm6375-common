@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter bangkk fogos,$(TARGET_DEVICE)),)
+ifneq ($(filter bangkk fogos miami,$(TARGET_DEVICE)),)
 
 endif
