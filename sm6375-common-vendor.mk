@@ -663,7 +663,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.eid@1.0 \
-    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm@1.0-vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
@@ -725,7 +725,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce@1.1 \
     vendor.qti.ims.rcsuce@1.2 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     bm2n06 \
