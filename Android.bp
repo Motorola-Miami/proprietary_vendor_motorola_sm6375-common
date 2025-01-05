@@ -1821,7 +1821,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so"],
 			shared_libs: ["libc", "libgcc", ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so"],
 			shared_libs: ["libc", "libgcc", ],
 		},
@@ -1843,7 +1843,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so"],
 			shared_libs: ["libc", "libgcc", ],
 		},
-		android_arm: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so"],
 			shared_libs: ["libc", "libgcc", ],
 		},
@@ -2872,7 +2872,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/soundfx/libspeakerbundle.so"],
-			shared_libs: ["liblog", "libtinyalsa", "libutils", "libcutils", "libsensorndkbridge", "libaudioroute", "libgui_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libtinyalsa", "libutils-v32", "libcutils", "libsensorndkbridge", "libaudioroute", "libgui_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -3937,7 +3937,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdpps.so"],
 			shared_libs: [ ],
 		},
@@ -5692,7 +5692,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/qcril_client.so"],
 			shared_libs: [ ],
 		},
@@ -6543,7 +6543,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.8.so"],
 			shared_libs: [ ],
 		},
@@ -6560,7 +6560,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.9.so"],
 			shared_libs: [ ],
 		},
@@ -6798,7 +6798,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.7.so"],
 			shared_libs: [ ],
 		},
@@ -7070,7 +7070,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.configservice@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7087,7 +7087,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.configservice@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7104,7 +7104,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.connection@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7155,7 +7155,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.factory@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -7172,7 +7172,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.factory@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -7189,7 +7189,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.factory@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -7274,7 +7274,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7291,7 +7291,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7308,7 +7308,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcssip@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -7325,7 +7325,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7342,7 +7342,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7359,7 +7359,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.ims.rcsuce@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -7764,27 +7764,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libdpmtcm.so"],
 			shared_libs: ["libdiag_system", "libbinder", "libcutils", "libutils", "libdpmframework", "com.qualcomm.qti.dpm.api@1.0", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmmosal",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/libmmosal.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/libmmosal.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -8213,48 +8192,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.diaghal@1.0",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.qccsyshal@1.0",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.qccsyshal@1.1",
 	owner: "motorola",
 	strip: {
@@ -8282,11 +8219,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.2-halimpl.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so"],
 			shared_libs: [ ],
 		},
@@ -8303,33 +8240,16 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.2.so"],
 			shared_libs: [ ],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so"],
 			shared_libs: [ ],
 		},
 	},
 	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.wifidisplaysession@1.0",
-	owner: "motorola",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "32",
 	prefer: true,
 	system_ext_specific: true,
 }
@@ -8494,7 +8414,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -8545,7 +8465,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.1.so"],
 			shared_libs: [ ],
 		},
