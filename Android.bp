@@ -5451,7 +5451,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libtinyalsa",
-                "libutils",
+                "libutils-v32",
                 "libcutils",
                 "libsensorndkbridge",
                 "libaudioroute",
