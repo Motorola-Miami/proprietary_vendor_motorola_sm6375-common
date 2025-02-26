@@ -735,6 +735,7 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_skel \
     com.qualcomm.qti.ant@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
+    libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
     libdpmframework \
@@ -770,7 +771,6 @@ PRODUCT_PACKAGES += \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
-    libdiag_system \
     libimscamera_jni \
     libimsmedia_jni \
     libwfdnative \
