@@ -348,6 +348,7 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libaudcal \
     libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libbtnv \
     libc2d30_bltlib \
     libcapiv2svacnn \
